@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ul className="navbar">
+        <li>
+          Home
+        </li>
+        <li>
+          Contact
+        </li>
+        <li>
+          About
+        </li>
+        <li>
+          Location
+        </li>
+        <li>
+          Book
+        </li>
+      </ul>
+      <h1>Free Online Diabetes<br/><span>Classes</span> for everyone</h1>
+      <p>Lorem ipsum dolor sit amet,<br/>consectetuvr adipiscing elit, sed do<br/>eiusmod tempor incidunt ut labore et <br/>dolore magna aliqua. Quis</p>
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
